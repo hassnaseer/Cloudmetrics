@@ -1,0 +1,4180 @@
+{
+  "vb": "1.0.0",
+  "timestamp": 1618455142158,
+  "settings": {
+    "authProvider": "jwt",
+    "logo": "Synapse",
+    "version": "fluent",
+    "theme": "default",
+    "locale": "en-US",
+    "isSidebarOpen": false,
+    "isSupportChatOpen": false,
+    "isMobileView": false,
+    "isMobileMenuOpen": false,
+    "isMenuCollapsed": false,
+    "isPreselectedOpen": false,
+    "preselectedVariant": "default",
+    "menuLayoutType": "left",
+    "routerAnimation": "slide-fadein-up",
+    "menuColor": "gray",
+    "authPagesColor": "gray",
+    "isAuthTopbar": true,
+    "primaryColor": "#4b7cf3",
+    "leftMenuWidth": 256,
+    "isMenuUnfixed": false,
+    "isMenuShadow": true,
+    "isTopbarFixed": false,
+    "isTopbarSeparated": false,
+    "isGrayTopbar": true,
+    "isContentMaxWidth": false,
+    "isAppMaxWidth": false,
+    "isGrayBackground": false,
+    "isCardShadow": true,
+    "isSquaredBorders": false,
+    "isBorderless": false,
+    "layoutMenu": "classic",
+    "layoutTopbar": "v1",
+    "layoutBreadcrumbs": "v1",
+    "layoutFooter": "v1",
+    "flyoutMenuType": "flyout",
+    "flyoutMenuColor": "blue"
+  },
+  "config": [
+    { "category": true, "title": "Insights and Analytics", "key": "0l9kpe", "expanded": true },
+    {
+      "key": "__dashboard",
+      "title": "Dashboards",
+      "url": "/dashboards",
+      "expanded": true,
+      "children": [
+        {
+          "title": "Summary",
+          "url": "/dashboards/summary",
+          "key": "c84cre",
+          "expanded": true,
+          "icon": "fe fe-home"
+        },
+        { "title": "AWS", "url": "/dashboards/aws", "key": "mnt1c4", "expanded": true },
+        { "title": "Azure", "url": "/dashboards/azure", "key": "yh15pf" },
+        { "title": "GCP", "url": "/dashboards/gcp", "key": "mqqtvs", "expanded": true },
+        { "title": "Applications", "url": "/dashboards/summary/apps", "key": "56akjl" },
+        { "title": "Chargeback", "url": "/dashboards/summary/chargeback", "key": "0nipo" },
+        { "title": "Renewals", "url": "/dashboards/apps/renewals", "key": "yyj90i" }
+      ]
+    },
+    { "category": true, "title": "Apps and Tasks", "key": "1p7uzj", "expanded": true },
+    {
+      "title": "Optimize",
+      "url": "/optimization",
+      "icon": "fe fe-activity",
+      "key": "vwqshtl",
+      "expanded": true,
+      "children": [
+        { "title": "AWS", "url": "/optimization/aws", "key": "gqfd0h", "expanded": true },
+        { "title": "Azure", "url": "/optimization/azure", "key": "lvnp5i", "expanded": true },
+        { "title": "GCP", "url": "/optimization/gcp", "key": "luj3l" },
+        { "title": "Applications", "url": "/optimization/apps", "key": "ghjqi8" }
+      ]
+    },
+    {
+      "title": "Plan and Allocate",
+      "url": "/plan",
+      "icon": "fe fe-airplay",
+      "key": "e4ikgb",
+      "expanded": true,
+      "children": [
+        { "title": "Plan and Budget", "url": "/plan/budget", "key": "79i5fw", "expanded": true },
+        { "title": "Allocations", "url": "/plan/allocations", "key": "h0ez2" }
+      ]
+    },
+    {
+      "title": "Cloud and App Setup",
+      "url": "/setup",
+      "icon": "fe fe-alert-circle",
+      "key": "6o9z6g",
+      "expanded": true,
+      "children": [
+        { "title": "AWS", "url": "/setup/aws", "key": "n3xgwn" },
+        { "title": "Azure", "url": "/setup/azure", "key": "gu3w9u" },
+        { "title": "GCP", "url": "/setup/gcp", "key": "s4u964" },
+        { "title": "Applications", "url": "/setup/applications", "key": "lxtc6l" },
+        { "title": "SSO setup", "url": "/setup/sso", "key": "esbpi" }
+      ]
+    },
+    {
+      "title": "Configurations",
+      "url": "/config",
+      "icon": "fe fe-align-justify",
+      "key": "0ht3lo",
+      "expanded": true,
+      "children": [
+        { "title": "Business", "url": "/config/business", "key": "xc8z3c" },
+        { "title": "Projects", "url": "/config/projects", "key": "rbbyxhj" },
+        { "title": "Teams", "url": "/config/teams", "key": "a2w3jn" },
+        { "title": "Users", "url": "/config/users", "key": "tnzh45" }
+      ]
+    },
+    {
+      "title": "Automate",
+      "url": "/automation",
+      "icon": "fe fe-alert-circle",
+      "key": "8xgb4t",
+      "expanded": true,
+      "children": [
+        { "title": "Automation", "url": "/automation/cloud", "key": "3e20en" },
+        { "title": "Workflows", "url": "/automation/workflows", "key": "dlmw04" }
+      ]
+    },
+    {
+      "title": "Secure",
+      "url": "/secure",
+      "icon": "fe fe-alert-octagon",
+      "key": "oxm26o",
+      "expanded": true,
+      "children": [
+        { "title": "Cloud Compliance", "url": "/secure/cloud", "key": "egp1es", "expanded": true },
+        { "title": "Audit", "url": "/secure/cloud/audit", "key": "txpga8" },
+        { "title": "IAM", "url": "/secure/cloud/IAM", "key": "hjw3h" },
+        { "title": "Monitoring", "url": "/secure/cloud/monitoring", "key": "ul5ddq" },
+        { "title": "Networking", "url": "/secure/cloud/networking", "key": "rixa2" }
+      ]
+    },
+    {
+      "title": "Catalog and Tasks",
+      "url": "/catalog",
+      "icon": "fe fe-align-center",
+      "key": "5j144",
+      "expanded": true,
+      "children": [
+        { "title": "Cloud Catalog", "url": "/catalog/cloud", "key": "xqk9ub" },
+        { "title": "App Catalog", "url": "/catalog/app", "key": "7rgxtd" },
+        { "title": "My Requests and Tasks", "url": "/catalog/tasks_and_requests", "key": "eiic8" }
+      ]
+    }
+  ],
+  "content": {
+    "ghjqi8": [
+      {
+        "key": "gn9nyt",
+        "columns": [
+          {
+            "key": "extkq",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "cfhv1e",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "toknao",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Application Optimization" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "xox4xb",
+        "columns": [
+          {
+            "key": "g6c48p",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "jy19j7",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "1590r",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Under Utilized Applications" }
+                  },
+                  { "key": "xogs48", "name": "WidgetsCharts-3" },
+                  { "key": "fbpckw", "name": "WidgetsTables-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "c84cre": [
+      {
+        "key": "n3uul",
+        "columns": [
+          {
+            "key": "hzktzc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "smoyul",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "mumeyq",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total Cloud Spend" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "znqxve",
+        "columns": [
+          {
+            "key": "zxogow",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "nyabxt",
+                "extraClass": "card",
+                "widgets": [{ "key": "dh3nea", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "99ukce",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "nfpcm",
+                "extraClass": "card",
+                "widgets": [{ "key": "rkhmq", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "ja8a5f",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "gutwom",
+                "extraClass": "card",
+                "widgets": [{ "key": "1y7zc", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5a4te",
+        "columns": [
+          {
+            "key": "llwue",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ngvawm",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "t1f4uo",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total Cloud Spend by Provider" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "kkyuym",
+        "columns": [
+          {
+            "key": "vchdc",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "2q5is",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  { "key": "nonye3", "name": "WidgetsGeneral-6v1", "wrapper": false },
+                  { "key": "x16bwq", "name": "WidgetsCharts-5" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "6m6rzm",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "35w5b",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  { "key": "8hjo4", "name": "WidgetsGeneral-6v1", "wrapper": false },
+                  { "key": "j7oj4m", "name": "WidgetsCharts-5" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "az3pnc",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "4mya6",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  { "key": "4b1zgg", "name": "WidgetsGeneral-6", "wrapper": false },
+                  { "key": "7i0i9", "name": "WidgetsCharts-5" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "adj6j",
+        "columns": [
+          {
+            "key": "8bmk7",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "zew6g",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ejwv6p",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Plan vs. Actuals" }
+                  }
+                ]
+              },
+              {
+                "key": "a8uwai",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "1tywdh", "name": "WidgetsCharts-3" }]
+              },
+              {
+                "key": "6lx9bi",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "no7xsj",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total Spend by Product" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "vnwsp",
+        "columns": [
+          {
+            "key": "dsyswe",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "4w8hec",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "r9a15x", "name": "WidgetsCharts-9" }]
+              }
+            ]
+          },
+          {
+            "key": "njc4wk",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "dmh7f",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "q635wf", "name": "WidgetsCharts-9" }]
+              }
+            ]
+          },
+          {
+            "key": "sm489f",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "bcqu8e",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "uimuin", "name": "WidgetsCharts-9" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "56akjl": [
+      {
+        "key": "e9fbm",
+        "columns": [
+          {
+            "key": "82yx8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "nqh0q",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "5d3ylk",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total Application Summary" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "anxt9",
+        "columns": [
+          {
+            "key": "h9b8s",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "omqqu",
+                "extraClass": "card",
+                "widgets": [{ "key": "q0yzy9", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "k2km5n",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "2rdluo",
+                "extraClass": "card",
+                "widgets": [{ "key": "h42714", "name": "WidgetsGeneral-2v2" }]
+              }
+            ]
+          },
+          {
+            "key": "osxlpp",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "q5lzhf",
+                "extraClass": "card",
+                "widgets": [{ "key": "m52z", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "624do",
+        "columns": [
+          {
+            "key": "cd82li",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "tmz7jq",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "08ephf",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Applications Summary", "button": "View All", "url": "#" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "n5keh9",
+        "columns": [
+          {
+            "key": "mnvem",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "u42kp",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "o9gn4", "name": "WidgetsCharts-1" }]
+              }
+            ]
+          },
+          {
+            "key": "gi4ftc",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "egkhu",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "yhfet", "name": "WidgetsCharts-10" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "yj0dye",
+        "columns": [
+          {
+            "key": "fifqcf",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "kjh1kw",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "foem3",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Application Utilization", "button": "View All", "url": "#" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "as4wi",
+        "columns": [
+          {
+            "key": "4hk8v",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "kv3pa",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "arn7uj", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mnt1c4": [
+      {
+        "key": "9g0961",
+        "columns": [
+          {
+            "key": "6443ud",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "gsung",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "x6m69k",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total AWS Spend" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wqoafb",
+        "columns": [
+          {
+            "key": "b232e7",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "qlx2o7",
+                "extraClass": "card",
+                "widgets": [{ "key": "c0ws1", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "j2mw4",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "trxrco",
+                "extraClass": "card",
+                "widgets": [{ "key": "qi6clo", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "l2hm1h",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "sg8fyh",
+                "extraClass": "card",
+                "widgets": [{ "key": "1fs3ap", "name": "WidgetsGeneral-2v2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9kygbn",
+        "columns": [
+          {
+            "key": "8dclh7",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "d7drtc",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ae64kc",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": {
+                      "title": "AWS Spend by Account",
+                      "button": "View by Account",
+                      "url": "#"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "s8hydp",
+        "columns": [
+          {
+            "key": "od44a7",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "rs7dl9",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "d6t8n7", "name": "WidgetsCharts-3" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nzlwk",
+        "columns": [
+          {
+            "key": "l71hnc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "4tzy6b",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "89pq8b",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "AWS Spend by Month" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "u0end7",
+        "columns": [
+          {
+            "key": "bkd4vj",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "1faspe",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "9ug5gn", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          },
+          {
+            "key": "xgy3uc",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "basess",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "3mmp57s", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "i1rgtx",
+        "columns": [
+          {
+            "key": "ntni58",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xpo53",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "qg79x2",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "AWS Spend by Product/Service" }
+                  },
+                  { "key": "88qo1q", "name": "WidgetsCharts-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "yh15pf": [
+      {
+        "key": "es2iuq",
+        "columns": [
+          {
+            "key": "z4kg3",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "dnbabj",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "3mr7uc",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total Azure Spend" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "7est9i",
+        "columns": [
+          {
+            "key": "3v1t87",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "pdury",
+                "extraClass": "card",
+                "widgets": [{ "key": "5q8zyg", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "23lmcv",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ih4f5",
+                "extraClass": "card",
+                "widgets": [{ "key": "wp6n7m", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "k3csnj",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ch9nmr",
+                "extraClass": "card",
+                "widgets": [{ "key": "021u2t", "name": "WidgetsGeneral-2v2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9d07pe",
+        "columns": [
+          {
+            "key": "yk8ls",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "w1zabh",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "hfpmxb",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": {
+                      "title": "Azure Spend by Subscription",
+                      "button": "View by Subscription",
+                      "url": "#"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "qpven",
+        "columns": [
+          {
+            "key": "7f75n3",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "msiloc",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "it9rhd", "name": "WidgetsCharts-3" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "czh35s",
+        "columns": [
+          {
+            "key": "6gb7vq",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "02mn8n",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "5heotr",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Azure Spend by Month" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "vs0xt",
+        "columns": [
+          {
+            "key": "5v99yo",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "tjc6cr",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "p7h03l", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          },
+          {
+            "key": "aw69co",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "d1pcy",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "l3i0cp", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "12610o",
+        "columns": [
+          {
+            "key": "tgcrvc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "kpldqt",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ttil27",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Azure Spend by Product/Service" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "6wyel",
+        "columns": [
+          {
+            "key": "r905er",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "gs6ajd",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "extrf", "name": "WidgetsCharts-3" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mqqtvs": [
+      {
+        "key": "0c5ioa",
+        "columns": [
+          {
+            "key": "w9nbj5",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ro02kj",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "y1rnr",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Total GCP Spend" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "o37bf6",
+        "columns": [
+          {
+            "key": "m3058",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "oba6sw",
+                "extraClass": "card",
+                "widgets": [{ "key": "skzmpt", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "kucl6r",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "4mc9uv",
+                "extraClass": "card",
+                "widgets": [{ "key": "m2fwxj", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "soxpd",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "kn2x48",
+                "extraClass": "card",
+                "widgets": [{ "key": "ote671", "name": "WidgetsGeneral-2v2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "w2g4nn",
+        "columns": [
+          {
+            "key": "987gn",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "68lx4",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "iutgl",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": {
+                      "title": "GCP Spend by Project",
+                      "button": "View by Project",
+                      "url": "#"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "qz4sb9",
+        "columns": [
+          {
+            "key": "4s39vq",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "zertos",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "pksq8o", "name": "WidgetsCharts-3" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0j0xr",
+        "columns": [
+          {
+            "key": "vduvi",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "zmg3k4d",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "90w57s",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "GCP Spend by Month" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "yj2e7f",
+        "columns": [
+          {
+            "key": "i5bzah",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "c19x5c",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "qbk26", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          },
+          {
+            "key": "3cgdwx",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "7w05s9",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "c3lmp", "name": "WidgetsCharts-5" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "uak1t",
+        "columns": [
+          {
+            "key": "q9ano",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ubtzce",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "hr0i7s",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "GCP Spend by Product/Service" }
+                  },
+                  { "key": "zc2r", "name": "WidgetsCharts-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "0nipo": [
+      {
+        "key": "98cv63",
+        "columns": [
+          {
+            "key": "nnq8u",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "u18fd",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "uboyws",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Chargeback Summary" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "5zng4b",
+        "columns": [
+          {
+            "key": "i4xgd",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "h1apq9",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "tfxojs",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Cloud Chargeback" }
+                  },
+                  { "key": "7zwrvh", "name": "WidgetsCharts-1" },
+                  { "key": "e9zibp", "name": "WidgetsTables-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "40brx",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "xls41v",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "nyd0m4",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Applications Chargeback" }
+                  },
+                  { "key": "gsyh3g", "name": "WidgetsCharts-1" },
+                  { "key": "jnazf8", "name": "WidgetsTables-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "eiic8": [
+      {
+        "key": "oyu2j",
+        "columns": [
+          {
+            "key": "d9cotk",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "78qcod",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "5mj9i9",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "My Requests and Tasks" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "rhitlv",
+        "columns": [
+          {
+            "key": "bxh2lm",
+            "className": "col-lg-3 col-md-12",
+            "cards": [
+              {
+                "key": "ux9oto",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "477akb", "name": "WidgetsLists-24" }]
+              }
+            ]
+          },
+          {
+            "key": "tjmiqi",
+            "className": "col-lg-9 col-md-12",
+            "cards": [
+              {
+                "key": "afo256",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "3ovc5e", "name": "WidgetsTables-6" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dlmw04": [
+      {
+        "key": "lmu7j",
+        "columns": [
+          {
+            "key": "kw2pee",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "mkbhs9",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "metdub",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Workflows" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "iq25yc",
+        "columns": [
+          {
+            "key": "g59fu",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "2ponf",
+                "extraClass": "card",
+                "widgets": [{ "key": "4ioee8", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "f3fx9l",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ku8vie",
+                "extraClass": "card",
+                "widgets": [{ "key": "27ljj9", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "dd1uvg",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ugf6rm",
+                "extraClass": "card",
+                "widgets": [{ "key": "6fifqn", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "o9p6i",
+        "columns": [
+          {
+            "key": "junh7q",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "bywjz",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "9s61bq",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Workflow Template" }
+                  },
+                  { "key": "qcq1tba", "name": "WidgetsLists-8" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "dbbm2o",
+            "className": "col-lg-8 col-md-12",
+            "cards": [
+              {
+                "key": "n2b7fe",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "iss2ib",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Workflow Details" }
+                  },
+                  { "key": "fuj1e", "name": "WidgetsLists-9" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "7noz28",
+        "columns": [
+          {
+            "key": "slcwtp",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "6srq7",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "dceyzv",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Workflow Status" }
+                  },
+                  { "key": "t1ut9l", "name": "WidgetsTables-1" },
+                  { "key": "xzwlh", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gqfd0h": [
+      {
+        "key": "s8m9qc",
+        "columns": [
+          {
+            "key": "blt7yk",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "28cflb",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "l26lf",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "AWS Optimization and Savings" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "c006d",
+        "columns": [
+          {
+            "key": "zq0t5",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rdarwo",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "69q7wt",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Right Sizing EC2 Instances", "button": "View", "url": "#" }
+                  },
+                  { "key": "u7nw5", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "mpac5",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "n8uucw",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "om8nmk",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Scheduling EC2 Instances", "button": "View", "url": "#" }
+                  },
+                  { "key": "dyux0l", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "vfx8v",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rgpjbe",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "rmqhcg",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Storage and S3 Optimization", "button": "View", "url": "#" }
+                  },
+                  { "key": "mkkb2i", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "kz85yh",
+        "columns": [
+          {
+            "key": "50tv8k",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "nrmywr",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "rat8f",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Additional EC2 Savings", "button": "View", "url": "#" }
+                  },
+                  { "key": "ylgy9k", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "nwu0i",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "qk4nz",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "jqdoqr",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Network", "button": "View", "url": "#" }
+                  },
+                  { "key": "wj5zfi", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "tnmvpq",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "qr5cqr",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "anw50l",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Others", "button": "View", "url": "#" }
+                  },
+                  { "key": "dege6", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "xrxx7m",
+        "columns": [
+          {
+            "key": "z0kapc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "fqcjdl",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "xp78hm",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Right Size EC2 Instances - Details " }
+                  },
+                  { "key": "xywmht", "name": "WidgetsTables-1" },
+                  { "key": "1gymo7", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "2owgff",
+        "columns": [
+          {
+            "key": "v1s68",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "wj8uo",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "fz5hut",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Scheduling EC2 Instance - Details" }
+                  },
+                  { "key": "stnok5", "name": "WidgetsTables-1" },
+                  { "key": "fze8mk", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0fpqo",
+        "columns": [
+          {
+            "key": "ft886i",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "nvr5bi",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "b1f53",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Storage and S3 Optimization - Details" }
+                  },
+                  { "key": "5skgpm", "name": "WidgetsTables-1" },
+                  { "key": "qel0k", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sfra04",
+        "columns": [
+          {
+            "key": "c4192g",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "c9ji1",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "sorssj",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Additional EC2 Savings" }
+                  },
+                  { "key": "6ym2dz", "name": "WidgetsTables-1" },
+                  { "key": "6fkxio", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "brn6q5",
+        "columns": [
+          {
+            "key": "d8ttdb",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "dmvrfr",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "58oxxf",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Storage, Network and Others" }
+                  },
+                  { "key": "yqdc1", "name": "WidgetsTables-1" },
+                  { "key": "8fxe2", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "n3xgwn": [
+      {
+        "key": "h6v1q",
+        "columns": [
+          {
+            "key": "fy93a",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "hw919",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "0qwq3n",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Setup new AWS account" }
+                  },
+                  {
+                    "key": "ruzqd8i",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New AWS Acccount",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0htdc",
+        "columns": [
+          {
+            "key": "6ads1b",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "bfmmxm",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "c3zr8b",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "List of AWS Accounts" }
+                  },
+                  { "key": "g56b6g", "name": "TablesAntd-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "egp1es": [
+      {
+        "key": "16f7sq",
+        "columns": [
+          {
+            "key": "v18bz8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "2yuxs",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "agj81",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Cloud Security and Audit Results" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "vtj1y3",
+        "columns": [
+          {
+            "key": "rttw3c",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "e0990g",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "vxdhpj",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Identity and Access Management (IAM)" }
+                  },
+                  {
+                    "key": "fmtro",
+                    "name": "WidgetsGeneral-21v1",
+                    "wrapper": "card-body bg-primary text-white rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "ptpnm6",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ts37yq",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "tgdn2c",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Audit Checks" }
+                  },
+                  {
+                    "key": "4sita",
+                    "name": "WidgetsGeneral-21v3",
+                    "wrapper": "card-body bg-danger text-white rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "dmz6cf",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "lvc61a",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "dbne6k",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Monitoring" }
+                  },
+                  {
+                    "key": "t53bx",
+                    "name": "WidgetsGeneral-21",
+                    "wrapper": "card-body bg-success text-white rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "jnlk1c",
+        "columns": [
+          {
+            "key": "3ebq3p",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "p4h499",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "twq1d",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Networking" }
+                  },
+                  {
+                    "key": "cxka0l",
+                    "name": "WidgetsGeneral-2v4",
+                    "wrapper": "card-body text-white bg-danger rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "txpga8": [
+      {
+        "key": "lg26qq",
+        "columns": [
+          {
+            "key": "30xr1m",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "nw2tup",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "dyc7cp",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Audit Compliance Results" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "o25vh",
+        "columns": [
+          {
+            "key": "u31sek",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "6ja7s",
+                "extraClass": "card",
+                "widgets": [{ "key": "5gwcsi", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "7hq8vj",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "5yyhu",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "mozsd",
+                    "name": "WidgetsGeneral-2v3",
+                    "wrapper": "card-body text-white bg-success rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "qm7sbo",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "vcp4u9",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "h7bwlc",
+                    "name": "WidgetsGeneral-2v4",
+                    "wrapper": "card-body text-white bg-danger rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "klsv2s",
+        "columns": [
+          {
+            "key": "ecatd",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "jza485",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ktq78o",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Details" }
+                  },
+                  { "key": "obgxnh", "name": "WidgetsTables-1" },
+                  { "key": "aozxt", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hjw3h": [
+      {
+        "key": "bigvuw",
+        "columns": [
+          {
+            "key": "e5hlxb",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "vgf2ga",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ixhg2f",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "c2c5ws",
+        "columns": [
+          {
+            "key": "tv00tq",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "kvfhl8",
+                "extraClass": "card",
+                "widgets": [{ "key": "7ii255", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "lbo9qu",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ns8qhc",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "mt0kor",
+                    "name": "WidgetsGeneral-2v3",
+                    "wrapper": "card-body text-white bg-success rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "znas6b",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "j4ir4r",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "64t8q",
+                    "name": "WidgetsGeneral-2v4",
+                    "wrapper": "card-body text-white bg-danger rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wjffl",
+        "columns": [
+          {
+            "key": "ajotam",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "2y9eon",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "pa7ac",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  },
+                  { "key": "ctqni7", "name": "WidgetsTables-1" },
+                  { "key": "lvr9eg", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ul5ddq": [
+      {
+        "key": "dp1yqg",
+        "columns": [
+          {
+            "key": "uhc750o",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "kva19",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "uw96wi",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lm3w7",
+        "columns": [
+          {
+            "key": "fc3rk",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "1xqol",
+                "extraClass": "card",
+                "widgets": [{ "key": "6cfeng", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "u8qg8v",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "kjeumf",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "acr45r",
+                    "name": "WidgetsGeneral-2v4",
+                    "wrapper": "card-body text-white bg-danger rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "hhhgzn",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "xydpjm",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "k6azka",
+                    "name": "WidgetsGeneral-2v3",
+                    "wrapper": "card-body text-white bg-success rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "1wjl8",
+        "columns": [
+          {
+            "key": "3kpmxf",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "5pvstl",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "lnvxci",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  },
+                  { "key": "6ga9sq", "name": "WidgetsTables-1" },
+                  { "key": "oyzhia", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rixa2": [
+      {
+        "key": "gipprn",
+        "columns": [
+          {
+            "key": "sqi20h",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "y2oxh",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "8mvseb",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wa010l",
+        "columns": [
+          {
+            "key": "tnwad",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "s6mo2f",
+                "extraClass": "card",
+                "widgets": [{ "key": "tbxe87", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "c1t79k",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "0914xp",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "jw4fqh",
+                    "name": "WidgetsGeneral-2v3",
+                    "wrapper": "card-body text-white bg-success rounded"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "vbgkyj",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "psoluu",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "ett6bb",
+                    "name": "WidgetsGeneral-2v4",
+                    "wrapper": "card-body text-white bg-danger rounded"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "t896dh",
+        "columns": [
+          {
+            "key": "lm0c3g",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "7vfmcy",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "jvfsyk",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Basic page header" }
+                  },
+                  { "key": "z3r4sn", "name": "WidgetsTables-1" },
+                  { "key": "g77yy", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gu3w9u": [
+      {
+        "key": "3qjhd",
+        "columns": [
+          {
+            "key": "m5p4mw",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "i57ftl",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "cmh3eh",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Setup new Azure Tenant" }
+                  },
+                  {
+                    "key": "3icsdq",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Subscription",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "z09tda",
+        "columns": [
+          {
+            "key": "zdkyog",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "snz6o7",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "losv17",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "List of Azure Subscriptions" }
+                  },
+                  { "key": "c7sif9", "name": "TablesAntd-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "s4u964": [
+      {
+        "key": "f814b",
+        "columns": [
+          {
+            "key": "ka2eo4",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "aee64k",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "krvc2",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Setup GCP" }
+                  },
+                  {
+                    "key": "hzv8",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Project",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "v6gz",
+        "columns": [
+          {
+            "key": "edzxml",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "v516r",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "v24wfa",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "List of Google Projects" }
+                  },
+                  { "key": "5fvhw", "name": "TablesAntd-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "79i5fw": [
+      {
+        "key": "pba9z",
+        "columns": [
+          {
+            "key": "1x1l8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "jb98hj",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "uxf0m",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Budgeting for Cloud and Applications" }
+                  }
+                ]
+              },
+              {
+                "key": "khzujn",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "pcon5r",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "Create New Budget",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "kd47ar",
+        "columns": [
+          {
+            "key": "up5fnn",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "idl5p3",
+                "extraClass": "card",
+                "widgets": [{ "key": "1phkbo", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "xmis9",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rbp4y",
+                "extraClass": "card",
+                "widgets": [{ "key": "3ywmyo", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "rfswhf",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "66hwk",
+                "extraClass": "card",
+                "widgets": [{ "key": "qmq1pq", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "l3wble",
+        "columns": [
+          {
+            "key": "0s17ko",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "h13rim",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "sen0z7",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Budget List and Details" }
+                  },
+                  { "key": "l8vpqh", "name": "WidgetsTables-1" },
+                  { "key": "is3qb1g", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0wo8sl",
+        "columns": [
+          {
+            "key": "dezuby",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "zev6k",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "xtedpo",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create/Update Budget" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "epe60u",
+        "columns": [
+          {
+            "key": "fvrml",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "zt8g4i",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "sy2esh", "name": "WidgetsLists-7" }]
+              }
+            ]
+          },
+          {
+            "key": "5fzjo",
+            "className": "col-lg-8 col-md-12",
+            "cards": [
+              {
+                "key": "dn15vq",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "szup5m", "name": "Forms-1" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "h0ez2": [
+      {
+        "key": "v5j4bl",
+        "columns": [
+          {
+            "key": "yuqr7a",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "bkk1ku",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "zz87i",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Allocations for Cloud and Applications" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9uo2nb",
+        "columns": [
+          {
+            "key": "ebstud",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "mcdp4m",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "xi4vf",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New New Allocations",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "f1xa19",
+        "columns": [
+          {
+            "key": "yfm0ay",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ikzyda",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "uvgp1",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Allocation Rules and Details" }
+                  },
+                  { "key": "15pfxv", "name": "WidgetsTables-1" },
+                  { "key": "fevo2a", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "9azz5",
+        "columns": [
+          {
+            "key": "vuu6cn",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "4aki35",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "l9cpa4",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create/Edit Allocations" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lxanno",
+        "columns": [
+          {
+            "key": "ck5khs",
+            "className": "col-lg-3 col-md-12",
+            "cards": [
+              {
+                "key": "1css3f",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "y1chb8", "name": "WidgetsLists-7" }]
+              }
+            ]
+          },
+          {
+            "key": "h3m69k",
+            "className": "col-lg-9 col-md-12",
+            "cards": [
+              {
+                "key": "629nk7",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "xq8ofw", "name": "Forms-1" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "esbpi": [
+      {
+        "key": "303ka",
+        "columns": [
+          {
+            "key": "c6h94n",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "cs2nzl",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "z3xxdd",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Setup Single-Sign On Access (SSO)" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "teeat",
+        "columns": [
+          {
+            "key": "4usea9",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "fwcgxt",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "qhfh9i", "name": "Forms-1" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lxtc6l": [
+      {
+        "key": "8n73o",
+        "columns": [
+          {
+            "key": "0a6rbi",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "gyf9vq",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "nsw2ta",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Applications Setup" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "7rgxtd": [
+      {
+        "key": "2tmubp",
+        "columns": [
+          {
+            "key": "r9ly95",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "52cug9i",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "0pac96",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Applications" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "aom5xi",
+        "columns": [
+          {
+            "key": "6xlgds",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rurh6h",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "vyugre", "name": "WidgetsLists-24" }]
+              }
+            ]
+          },
+          {
+            "key": "xmx129",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "meo9d",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "p1c14", "name": "WidgetsLists-4" }]
+              }
+            ]
+          },
+          {
+            "key": "1oy3yq",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "yqdsdk",
+                "extraClass": "card-placeholder",
+                "widgets": [{ "key": "7zvf84", "name": "WidgetsLists-4" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "xqk9ub": [
+      {
+        "key": "wemjnn",
+        "columns": [
+          {
+            "key": "2io8meu",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "5d50yx",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "njqnil",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Cloud Catalog" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "iz4f77",
+        "columns": [
+          {
+            "key": "8j87ua",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "a04jva",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "x9g7a",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Amazon - AWS" }
+                  },
+                  {
+                    "key": "uordy",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Request",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "f6oy9",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "m5zgqf",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "rh4iaa",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Microsoft - Azure" }
+                  },
+                  {
+                    "key": "o6lom9",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Request",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "3qxius",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "l2b0j",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "fc15gro",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Google - GCP" }
+                  },
+                  {
+                    "key": "ktoar",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Request",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tnzh45": [
+      {
+        "key": "ije3q",
+        "columns": [
+          {
+            "key": "6uwsdn",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "q6mxsh",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "vu11y",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Application User",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "skrdp",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "gxe8js",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "vyo8v",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Synapse User",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "q0mwhq",
+        "columns": [
+          {
+            "key": "kmcjy9",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "6spvlq",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "d06mev",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Application Users" }
+                  },
+                  { "key": "ho93pl", "name": "WidgetsTables-3" },
+                  { "key": "sxjpz", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "3qqf2w",
+        "columns": [
+          {
+            "key": "i5jxj8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "l3ul58",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "fxqlbn",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "System Users" }
+                  },
+                  { "key": "l1tstq", "name": "TablesAntd-3" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "a2w3jn": [
+      {
+        "key": "k53j3",
+        "columns": [
+          {
+            "key": "3ddz4c",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "h15yud",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "vdeuun",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create and Manage Teams" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "qlcb",
+        "columns": [
+          {
+            "key": "tth36",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "vc77yk",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "yisgkv",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": { "title": "New Team", "icon": "fe fe-plus-circle", "type": "primary" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0542c",
+        "columns": [
+          {
+            "key": "cuaasd",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "zwdbm",
+                "extraClass": "card",
+                "widgets": [{ "key": "hsfvlg", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "f6zco6",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "6kjsmg",
+                "extraClass": "card",
+                "widgets": [{ "key": "2qk91m", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "mau3qb",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ohjv5",
+                "extraClass": "card",
+                "widgets": [{ "key": "piyskt", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "jfxfmf",
+        "columns": [
+          {
+            "key": "tdjmf8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "5wcjgj",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "g4vw6e",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Teams" }
+                  },
+                  { "key": "yvujbf", "name": "WidgetsTables-7" },
+                  { "key": "9vc5ms", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "j2zmrn",
+        "columns": [
+          {
+            "key": "bzhd0d",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "lxgpry",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "izn65b",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create/Edit Team" }
+                  },
+                  { "key": "ju48c", "name": "Forms-4" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rbbyxhj": [
+      {
+        "key": "gvlakd",
+        "columns": [
+          {
+            "key": "y3e7mm",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "vztec",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "tapwyl",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create and Manage Projects" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "71d4t7",
+        "columns": [
+          {
+            "key": "a7pcgh",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "djrlda",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "7scj4b",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Project",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tiagak",
+        "columns": [
+          {
+            "key": "kcf3fd",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "1co3gu",
+                "extraClass": "card",
+                "widgets": [{ "key": "sk7kb6", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "8szqni",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "00ryt",
+                "extraClass": "card",
+                "widgets": [{ "key": "zergq", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "f8ju3g",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "sbt9jp",
+                "extraClass": "card",
+                "widgets": [{ "key": "3l7nk9", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "58lw5p",
+        "columns": [
+          {
+            "key": "4c7s0j",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "mcjjkk",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "o45wbt",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Projects" }
+                  },
+                  { "key": "h3pui", "name": "WidgetsTables-3" },
+                  { "key": "4iylk8", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "d5csb8",
+        "columns": [
+          {
+            "key": "5myzma",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ev1mob",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "c3dcte",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create/Update Project" }
+                  },
+                  { "key": "ptkcoc", "name": "Forms-4" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "xc8z3c": [
+      {
+        "key": "sdym9t",
+        "columns": [
+          {
+            "key": "eq8tvh",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "krl2vf",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "x022ds",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Manage Business Units and Cost Centers" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "7841ma",
+        "columns": [
+          {
+            "key": "0ut4h2",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "vvyg87",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "5bskji",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Business Unit",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "7k50x8",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "pgw764",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ktdfwa",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "New Cost Center",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "egoe0c",
+        "columns": [
+          {
+            "key": "di5s1q",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "czrbl2",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "n010hn",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Business Units" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pufq8c",
+        "columns": [
+          {
+            "key": "uzo23s",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "kmbrn",
+                "extraClass": "card",
+                "widgets": [{ "key": "ebqmoo", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "0pgxfg",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "b2d0eu",
+                "extraClass": "card",
+                "widgets": [{ "key": "cmb4hi", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "zx2dq8",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "i85h8",
+                "extraClass": "card",
+                "widgets": [{ "key": "crxbb8", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "u9e4ne",
+        "columns": [
+          {
+            "key": "vedolk",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xgyoxk",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "dx344",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Business Unit List" }
+                  },
+                  { "key": "o5j343", "name": "WidgetsTables-1" },
+                  { "key": "cb6w4l", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "dkj4r",
+        "columns": [
+          {
+            "key": "drtuw8",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "rr25tq",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "on6hti",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create/Edit Business Unit" }
+                  },
+                  { "key": "p9mly", "name": "Forms-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "kofwee",
+        "columns": [
+          {
+            "key": "wtp345",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "6xj7s",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "sy8r6r",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Cost Centers" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "o0bg4m",
+        "columns": [
+          {
+            "key": "3dp79b",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "vr7s5",
+                "extraClass": "card",
+                "widgets": [{ "key": "ofiyt", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "by9kko",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "77m0pp",
+                "extraClass": "card",
+                "widgets": [{ "key": "72vrhd", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "x1vv4r",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "dzxxff",
+                "extraClass": "card",
+                "widgets": [{ "key": "afq3kh", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "plwpb",
+        "columns": [
+          {
+            "key": "p5a1ou",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "bhf8bp",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "n6fje",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Cost Center List" }
+                  },
+                  { "key": "o1mvro", "name": "WidgetsTables-4" },
+                  { "key": "h78r3", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "gv4dze",
+        "columns": [
+          {
+            "key": "3zmzc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "n9xytqw",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "t9t6y",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Create / Edit Cost Center" }
+                  },
+                  { "key": "r0st9u", "name": "Forms-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "3e20en": [
+      {
+        "key": "iecqln",
+        "columns": [
+          {
+            "key": "gn0wc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xqlif",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "a0jfp",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Automation and Tasks" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "prun3",
+        "columns": [
+          {
+            "key": "hbwk1",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "g8hahr",
+                "extraClass": "card",
+                "widgets": [{ "key": "ynuefb", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "yfjyx",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "dmqbi",
+                "extraClass": "card",
+                "widgets": [{ "key": "qrf97", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          },
+          {
+            "key": "lbkil",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "xddrmo",
+                "extraClass": "card",
+                "widgets": [{ "key": "mzwg8v", "name": "WidgetsGeneral-2v2" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "iggdt",
+        "columns": [
+          {
+            "key": "hc1t6e",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "817noka",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "zaolw0p",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Automation Tasks" }
+                  },
+                  { "key": "2q4k38", "name": "TablesAntd-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lvnp5i": [
+      {
+        "key": "lhnbr5",
+        "columns": [
+          {
+            "key": "abas8d",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "m2ws2",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "hvq1xe",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Azure Optimization Savings" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "1trjw",
+        "columns": [
+          {
+            "key": "zjw9pg",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "1vaozd",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "qht0kb",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Right Size VM Instances", "button": "View", "url": "#" }
+                  },
+                  { "key": "m4cgl", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "a7zju",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "rh1om9",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "qaz7k",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Schedule VMs", "button": "View", "url": "#" }
+                  },
+                  { "key": "wwddi", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "uzdjbf",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "qy88a8f",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "mg7l8f",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Other Recommendations", "button": "View", "url": "#" }
+                  },
+                  { "key": "gzatp9", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "15cbca",
+        "columns": [
+          {
+            "key": "tzjo6",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "knxaik",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "mjxsy",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Right Size VM Instances - Details" }
+                  },
+                  { "key": "avgzk", "name": "WidgetsTables-1" },
+                  { "key": "ydbhfov", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nzcpf4",
+        "columns": [
+          {
+            "key": "z0wc6g",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "qk9edo",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "urirzu",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Schedule VMs - Details" }
+                  },
+                  { "key": "ak1k7l", "name": "WidgetsTables-1" },
+                  { "key": "bjaglc", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lhdjv9",
+        "columns": [
+          {
+            "key": "66nkn",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xokfs4",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "d0ou1g",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Other Recommendations - Details" }
+                  },
+                  { "key": "op2f2", "name": "WidgetsTables-1" },
+                  { "key": "05svjk", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "luj3l": [
+      {
+        "key": "71ppm7",
+        "columns": [
+          {
+            "key": "aitgpj",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xnps6m",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "lwmlal",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "GCP Optimization and Savings" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "8g5ob",
+        "columns": [
+          {
+            "key": "pa9nvg",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "03bv3k",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "rppobf",
+                    "name": "Headers-Heading3",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": {
+                      "title": "Right Size Compute Engine VMs",
+                      "button": "View",
+                      "url": "#"
+                    }
+                  },
+                  { "key": "20cgnx", "name": "WidgetsGeneral-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "zmxj3o",
+        "columns": [
+          {
+            "key": "fnr6yv",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "m836ml",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "a7zue6",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Right Size Compute Engine VM - Details" }
+                  },
+                  { "key": "abxjji", "name": "WidgetsTables-1" },
+                  { "key": "eqm9i", "name": "Controls-Pagination2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "yyj90i": [
+      {
+        "key": "fold9m",
+        "columns": [
+          {
+            "key": "06tv8r",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "uum2op",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "rrbab",
+                    "name": "Headers-CardHeader",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Application License / Contract Renewals" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "88wpxr",
+        "columns": [
+          {
+            "key": "xkbnus",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "uo1rls",
+                "extraClass": "card",
+                "widgets": [{ "key": "w505o", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "w8p5rn",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "4h2x6",
+                "extraClass": "card",
+                "widgets": [{ "key": "pz8n3u", "name": "WidgetsGeneral-2" }]
+              }
+            ]
+          },
+          {
+            "key": "p58mud",
+            "className": "col-lg-4 col-md-12",
+            "cards": [
+              {
+                "key": "ipqbzj",
+                "extraClass": "card",
+                "widgets": [{ "key": "1w7c2", "name": "WidgetsGeneral-2v1" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "h9eolj",
+        "columns": [
+          {
+            "key": "25huni",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "w9rcnr",
+                "extraClass": "card-placeholder",
+                "widgets": [
+                  {
+                    "key": "ff97hf",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "License / Contract Renewal List" }
+                  },
+                  { "key": "ryiefl", "name": "TablesAntd-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
